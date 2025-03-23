@@ -1,5 +1,5 @@
-// Set countdown date (1 month from now)
-const countDownDate = new Date().getTime() + 90 * 24 * 60 * 60 * 1000;
+// Set countdown date to October 1, 2025
+const countDownDate = new Date('2025-10-01T00:00:00').getTime();
 
 // Initialize countdown
 function initCountdown() {
